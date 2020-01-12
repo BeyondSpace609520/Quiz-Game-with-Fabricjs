@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fabric</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta charset="utf-8" />
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+	<style>
+		body {
+		    margin: 0;
+		    font-family: 'Varela Round', sans-serif;
+		}
+		.background {
+		    height: 700px;
+		    max-width: 380px;
+		    margin-left: auto;
+		    margin-right: auto;
+		}
+	</style>
+</head>
+<body>
+	<img src="./assets/imgs/home_button_gamepan.png" id="homeI" hidden>
+	<img src="./assets/imgs/star-on.png" id="starOn" hidden>
+	<img src="./assets/imgs/star-off.png" id="starOff" hidden>
+	<img src="./assets/imgs/tryagain_button_gamepan.png" id="tryagain" hidden>
+	<div class="background">
+		<canvas id="c"></canvas>
+	</div>
+		
+	<script type="text/javascript" src="./assets/json/quiz.json"></script>
+	<script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="./assets/js/fabric.min.js"></script>
+	<script type="text/javascript" src="./assets/js/gamepan_fabric.js"></script>
+</body>
+</html>

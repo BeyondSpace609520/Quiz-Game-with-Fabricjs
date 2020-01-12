@@ -1,0 +1,42 @@
+var quizes = [
+	{
+		"id": 7291,
+		"title": "I have worked _____ a teacher for the last four years.",
+		"status": 1,
+		"data": {
+			"txt":"I have worked as a teacher for the last four years",
+			"sel":{"txt":"as","index":3},
+			"options":["like", "as", "to", "be"]
+		}
+	},
+	{
+		"id": 7293,
+		"title": "The children are swimming _____ the river but it's getting cold.",
+		"status": 1,
+		"data": {
+			"txt":"The children are swimming in the river but it's getting cold.",
+			"sel":{"txt":"in","index":4},
+			"options":["at", "in", "above", "on"]
+		}
+	},
+	{
+		"id": 7296,
+		"title": "Check result _____ evening",
+		"status": 1,
+		"data": {
+			"txt":"Check result in evening.",
+			"sel":{"txt":"in","index":2},
+			"options":["in", "as", "on", "to"]
+		}
+	},
+	{
+		"id": 7314,
+		"title": "It is trivia game _____ simple quizes.",
+		"status": 1,
+		"data": {
+			"txt":"It is trivia game with simple quizes",
+			"sel":{"txt":"with","index":4},
+			"options":["like", "with", "to", "on"]
+		}
+	}
+]
